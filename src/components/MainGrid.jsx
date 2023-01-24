@@ -1,6 +1,7 @@
 import React from "react";
 import CategoryCard from "./CategoryCard.jsx";
 import SearchRecipes from "./SearchRecipes.jsx";
+import { IngredientsProvider } from "../contexts/ingredientsContext.js";
 
 const MainGrid = () => {
   return (
