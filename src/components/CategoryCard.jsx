@@ -25,14 +25,18 @@ const CategoryCard = () => {
               : setVisibleCategoryId(category.id)
           }
         >
-          <div className="flex text-center pl-10 bg-f8f9fa rounded-lg hover:scale-105 hover:bg-slate-200">
+          {/* <span className="bg-red-500"> */}
+          <div className="flex text-center pl-10 bg-[#f8f9fa] rounded-lg hover:scale-105 hover:bg-slate-200">
             <img
               src={category.img}
               alt={category.categoryName}
               className="cursor-pointer h-10 w-10 mb-5 mt-10"
             />
-            <div className="pl-1 pt-4">{category.categoryName}</div>
+            <div className="pl-2 pt-10 text-center">
+              {category.categoryName}
+            </div>
           </div>
+          {/* </span> */}
         </div>
       ))}
       {visibleCategoryId && (
@@ -47,7 +51,7 @@ const CategoryCard = () => {
                     className="cursor-pointer "
                     onClick={() => handleIngredientClick(ingredient)}
                   >
-                    <span className=" hover:bg-[#ffc107] px-2 py-1 text-xs">
+                    <span className=" hover:bg-[#ffc107] hover:font-semibold px-2 py-1 text-xs">
                       {ingredient}
                     </span>
                   </div>

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
-const NavBar = () => {
+const NavBar = (props) => {
   const [nav, setNav] = useState(false);
 
   const links = [
@@ -27,11 +27,19 @@ const NavBar = () => {
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-[#ffc107] top-0 left-0 absolute">
+    <div className="flex align-middle items-center w-full h-20 px-4 text-white bg-[#ffc107] top-0 left-0 absolute">
       <div>
-        <h1 className="text-5xl font-[Acme] ml-2">Fridge2Fork</h1>
+        <img
+          src="../assets/images/Fridge2Fork-logo.png"
+          width={110}
+          height={110}
+          className="pb-1"
+        />
       </div>
-      <ul className="hidden md:flex">
+      {/* <div className="mt-0 ml-5">
+        <h1 className="text-5xl font-[Acme]"></h1>
+      </div> */}
+      <ul className="hidden md:flex ml-auto">
         {links.map((link) => (
           <li
             key={link.id}
