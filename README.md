@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Fridge2Fork
+Welcome to Fridge2Fork, a "what's in my fridge" style recipe suggestion app that helps users find recipes based on the ingredients they have on hand.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built with React and Tailwind, Fridge2Fork is a simple, easy-to-use app that allows users to quickly and easily find recipe ideas without the need to create an account or save recipes.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
+- Ingredient-based recipe search: Fridge2Fork allows users to search for recipes based on the ingredients they have on hand. Simply enter the ingredients you have in your fridge and the app will suggest recipes that you can make with those ingredients.
+- Browse over 100 ingredients ingredient combinations.
+- Recipe cards: Each recipe is presented in a clear, easy-to-read card format, with a picture, ingredients and instructions
+- Download Option: Users can download the recipe card for offline use.
+- Thousands of recipes to choose from.
+- Live Website: The website is live and accessible to all.
+- Recipes sourced from the Spoonacular API.
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="screenshots/homescreen.png" width="939" height="426">
+<img src="screenshots/screen2.png" width="932" height="424">
+<img src="screenshots/screen3.png" width="933" height="419">
+<img src="screenshots/screen4.png" width="928" height="384">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting started
+1. Download the project and extract the files to your local environment
+2. Install the necessary dependencies by running `npm install`
+3. Start the application by running `npm start`
+4. Open a web browser and navigate to `http://localhost:3000` to access the application
 
-### `npm test`
+## Usage
+Using Fridge2Fork is simple. Just head to the app's website https://fridge2fork.netlify.app/ and start by selecting the ingredients you have on hand. The app will immediately suggest recipes that you can make with those ingredients.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once you've found a recipe you like, simply click on the "Show Recipe" to view the full recipe, including ingredients and instructions. You can also download the recipe card for offline use.
 
-### `npm run build`
+## Built with
+- React.js
+- Tailwind CSS
+- Spoonacular API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Limitations
+Currently, Fridge2Fork doesn't have account creation or saving recipe options. But we're working on adding these features in the future.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribute
+If you're interested in contributing to the development of Fridge2Fork, please fork the repository and submit a pull request.
 
-### `npm run eject`
+## License
+Fridge2Fork is licensed under the MIT License.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acknowledgments
+I would like to thank Spoonacular for providing the recipe data used in this application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Conclusion
+Fridge2Fork is a simple, easy-to-use app that helps users find recipe ideas based on the ingredients they have on hand. With its ingredient-based recipe search and clear, easy-to-read recipe cards, it's the perfect tool for anyone looking for quick and easy recipe ideas.
