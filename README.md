@@ -1,7 +1,7 @@
 # Fridge2Fork
 Welcome to Fridge2Fork, a "what's in my fridge" style recipe suggestion app that helps users find recipes based on the ingredients they have on hand.
 
-Built with React and Tailwind, Fridge2Fork is a simple, easy-to-use app that allows users to quickly and easily find recipe ideas without the need to create an account or save recipes.
+Built with React and Tailwind, Fridge2Fork is a simple, easy-to-use app that allows users to quickly and easily find recipe ideas without the need to create an account.
 
 
 ## Features
