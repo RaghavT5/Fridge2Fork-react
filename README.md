@@ -27,7 +27,7 @@ Built with React and Tailwind, Fridge2Fork is a simple, easy-to-use app that all
 4. Open a web browser and navigate to `http://localhost:3000` to access the application
 
 ## Usage
-Using Fridge2Fork is simple. Just head to the app's website https://fridge2fork.netlify.app/ and start by selecting the ingredients you have on hand. The app will immediately suggest recipes that you can make with those ingredients.
+Using Fridge2Fork is simple. Just head to the app's website https://fridge2fork.netlify.app/ and start by selecting the ingredients you have on hand. When you are done, click on "Find a Recipe" and the app will immediately suggest recipes that you can make with those ingredients.
 
 Once you've found a recipe you like, simply click on the "Show Recipe" to view the full recipe, including ingredients and instructions. You can also download the recipe card for offline use.
 
