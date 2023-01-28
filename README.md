@@ -37,7 +37,7 @@ Once you've found a recipe you like, simply click on the "Show Recipe" to view t
 - Spoonacular API
 
 ## Limitations
-Currently, Fridge2Fork doesn't have account creation or saving recipe options. But we're working on adding these features in the future.
+Currently, Fridge2Fork doesn't have account creation or saving recipe options. The app is also not suitable for mobile viewing. It's best experienced on a laptop or tablet. But I working on adding new features and optimizing it further.
 
 
 ## Contribute
