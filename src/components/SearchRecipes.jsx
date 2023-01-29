@@ -24,6 +24,7 @@ const SearchRecipes = () => {
         )}&apiKey=${APIKey}&number=12`
       );
       setRecipes(response.data);
+      localStorage.clear();
       localStorage.setItem("recipes", JSON.stringify(response.data));
       window.open("http://localhost:3000/displayRecipes");
     } catch (error) {
