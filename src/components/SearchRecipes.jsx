@@ -3,6 +3,7 @@ import axios from "axios";
 import { IngredientsContext } from "../contexts/ingredientsContext";
 import { RecipesContext } from "../contexts/recipesContext";
 import useState from "react-usestateref";
+import { useNavigate } from "react-router-dom";
 
 const URL = "https://api.spoonacular.com/recipes/findByIngredients";
 const APIKey = "96284e61b11e489198b8eecf0d4eb3a2";
@@ -16,6 +17,8 @@ const SearchRecipes = () => {
     setSelectedIngredients(selectedIngredients.filter((i) => i !== ingredient));
   };
 
+  const navigate = useNavigate();
+
   const handleClick = async () => {
     try {
       const response = await axios.get(
@@ -26,7 +29,8 @@ const SearchRecipes = () => {
       setRecipes(response.data);
       localStorage.clear();
       localStorage.setItem("recipes", JSON.stringify(response.data));
-      window.open("http://localhost:3000/displayRecipes");
+
+      navigate("/displayRecipes");
     } catch (error) {
       console.error(error);
     }
